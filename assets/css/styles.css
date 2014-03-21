@@ -21,26 +21,51 @@ red : #F7391A
   font-weight:  200;
 }
 
-@font-face {
-  font-family: 'Brandon Text';
-  src: url('/assets/fonts/brandon_text_regular.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/brandon_text_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/brandon_text_regular.woff') format('woff'), /* Modern Browsers */
-       url('/assets/fonts/brandon_text_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/brandon_text_regular.svg#4582969d6388a5dded4cbb4ff7487e0a') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  400;
-}
-
 body {
   background-color: #00AFF1;
+  color: #00324B;
   text-align: center;
   font-family: "Brandon Text";
 }
 
 #coderdojo-logo {
-  margin: 30px 0;
+  margin: 50px 0;
   width: 30%;
   height: auto;
+}
+
+h1 {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #00324B;
+  text-decoration: none;
+}
+
+h1 a {
+  border-bottom: 2px dotted #00324B;
+}
+
+h1 a:hover {
+  border-bottom-style: solid;
+}
+
+h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+h2 a {
+  display: inline-block;
+  border: 2px solid #00324B;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+h2 a:hover {
+  background-color: #00324B;
+  color: white;
+
 }
