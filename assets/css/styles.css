@@ -1,6 +1,8 @@
 body {
   background-color: #00AFF1;
   font-family: "Brandon Text", "Arial", sans-serif;
+  margin: 50px;
+  color: #00324B;
 }
 
 h1, h2 {
