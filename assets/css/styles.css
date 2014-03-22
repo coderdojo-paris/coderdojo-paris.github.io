@@ -1,3 +1,15 @@
 body {
   background-color: #00AFF1;
+  font-family: "Brandon Text", "Arial", sans-serif;
+}
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('/assets/fonts/brandon_text_regular.eot');
+  src: url('/assets/fonts/brandon_text_regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/brandon_text_regular.woff') format('woff'),
+       url('/assets/fonts/brandon_text_regular.ttf')  format('truetype'),
+       url('/assets/fonts/brandon_text_regular.svg#4582969d6388a5dded4cbb4ff7487e0a') format('svg');
+  font-style:   normal;
+  font-weight:  normal;
 }
