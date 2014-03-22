@@ -3,6 +3,21 @@ body {
   font-family: "Brandon Text", "Arial", sans-serif;
 }
 
+h1, h2 {
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('/assets/fonts/brandon_text_light.eot');
+  src: url('/assets/fonts/brandon_text_light.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/brandon_text_light.woff') format('woff'),
+       url('/assets/fonts/brandon_text_light.ttf')  format('truetype'),
+       url('/assets/fonts/brandon_text_light.svg#b2e83f21a04278900d92d2a5931f7dc3') format('svg');
+  font-style:   normal;
+  font-weight:  200;
+}
+
 @font-face {
   font-family: 'Brandon Text';
   src: url('/assets/fonts/brandon_text_regular.eot');
