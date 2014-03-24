@@ -1,71 +1,113 @@
-/*
-no sass!
-
-color reference
-
-beige : #F9EBD1
-light blue : #00AFF1
-dark blue : #00324B
-red : #F7391A
-*/
+@font-face {
+  font-family: 'Brandon Text';
+  src: url("/assets/fonts/brandon_text_light.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/brandon_text_light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/brandon_text_light.woff") format("woff"), url("/assets/fonts/brandon_text_light.ttf") format("truetype"), url("/assets/fonts/brandon_text_light.svg#b2e83f21a04278900d92d2a5931f7dc3") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
 
 @font-face {
   font-family: 'Brandon Text';
-  src: url('/assets/fonts/brandon_text_light.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/brandon_text_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/brandon_text_light.woff') format('woff'), /* Modern Browsers */
-       url('/assets/fonts/brandon_text_light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/brandon_text_light.svg#b2e83f21a04278900d92d2a5931f7dc3') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  200;
-}
+  src: url("/assets/fonts/brandon_text_regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/brandon_text_regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/brandon_text_regular.woff") format("woff"), url("/assets/fonts/brandon_text_regular.ttf") format("truetype"), url("/assets/fonts/brandon_text_regular.svg#4582969d6388a5dded4cbb4ff7487e0a") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url("/assets/fonts/brandon_text_bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/brandon_text_bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/brandon_text_bold.woff") format("woff"), url("/assets/fonts/brandon_text_bold.ttf") format("truetype"), url("/assets/fonts/brandon_text_bold.svg#52b8f7bdef7f32b456bdff259aa0aafa") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: bold; }
 
 body {
-  background-color: #00AFF1;
-  color: #00324B;
+  color: #00324b;
   text-align: center;
   font-family: "Brandon Text";
-}
+  margin: 0; }
 
-#coderdojo-logo {
-  margin: 50px 0;
-  width: 30%;
-  height: auto;
-}
+.intro {
+  padding: 0 10px;
+  background-color: #00aff1;
+  padding-bottom: 30px; }
+  .intro #coderdojo-logo {
+    margin: 30px 0;
+    width: 100%;
+    max-width: 250px; }
+
+a {
+  color: white;
+  text-decoration: none; }
 
 h1 {
   font-weight: 200;
-  margin-bottom: 30px;
-}
-
-a {
-  color: #00324B;
-  text-decoration: none;
-}
-
-h1 a {
-  border-bottom: 2px dotted #00324B;
-}
-
-h1 a:hover {
-  border-bottom-style: solid;
-}
+  font-size: 40px;
+  margin: 0 10%;
+  text-align: center; }
 
 h2 {
-  font-weight: 200;
+  color: #00aff1;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 30px;
+  font-weight: 200; }
+  h3 a {
+    border-bottom: 2px dotted white; }
+    h3 a:hover {
+      border-bottom-style: solid; }
+
+h4 {
   text-transform: uppercase;
-}
+  font-size: 24px; }
+  h4 a {
+    display: inline-block;
+    border: 2px solid #00aff1;
+    padding: 10px 15px;
+    margin: 10px;
+    color: #00aff1; }
+    h4 a:hover {
+      background-color: #00aff1;
+      color: #00324b; }
 
-h2 a {
-  display: inline-block;
-  border: 2px solid #00324B;
-  padding: 10px 15px;
-  margin: 10px;
-}
+.mentors {
+  background-color: white;
+  overflow: auto;
+  padding: 10px;
+  border-top: 1px solid #00324b; }
+  .mentors h4 {
+    margin: 0;
+    color: #f7391a; }
+    .mentors h4 a {
+      color: white;
+      background-color: #f7391a;
+      border: none; }
+      .mentors h4 a:hover {
+        color: white; }
 
-h2 a:hover {
-  background-color: #00324B;
-  color: white;
+.next-event {
+  padding: 10px;
+  background-color: #00324b; }
+  .next-event h3 {
+    color: white; }
+  .next-event h4 {
+    color: #00aff1; }
 
-}
+.previous-events {
+  padding: 10px; }
+  .previous-events h4 a {
+    font-size: 16px; }
+
+.twitter {
+  background-color: #00aff1;
+  padding: 10px; }
+  .twitter h3 {
+    font-weight: normal; }
+  .twitter a {
+    color: #00324b;
+    border-bottom: 1px solid #00324b; }
