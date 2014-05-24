@@ -1,0 +1,49 @@
+html, body {
+    margin: 20px;
+}
+
+header {
+	margin-bottom: 200px;
+	overflow: auto;
+}
+
+
+.searchbar input {
+	display: block;
+	margin: 0 auto;
+	width: 570px;
+	font-size: 20 px;
+	height: 27px;
+	border: 1px;
+	border: 1px solid rgb(216, 216, 216);
+	outline: none;
+}
+
+.searchbar input: focus {
+	border-color: rgb(66, 133, 244);
+	}
+
+.buttons {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+header img {
+	width: 30%;
+	height: 30%;
+	float: right;
+}
+
+.slides {
+	font-family: arial;
+	font-size: 18px;
+}
+
+.slide {
+	display: none;
+}
+
+.slide.active {
+	display: block;
+}
