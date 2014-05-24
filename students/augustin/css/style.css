@@ -1,0 +1,35 @@
+html, body {
+    margin: 20px;
+}
+
+.searchbar input  {
+display : block;
+margin :0 auto;
+width : 570px;
+height: 27px;
+border: 1px solid rgb(216,216,216)
+outline :none;
+}
+
+.searchbar input:focus{
+     border-color: rgb(66,133,244);
+    }
+
+.buttons{
+text-align:center
+display:block;
+margin: 0 auto;
+
+width: 570px;
+}
+
+.slide {
+	display: none;
+	width: 570px;
+	margin: 0 auto;
+}
+.slide.active {
+	display: block;
+}
+
+
