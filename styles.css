@@ -1,0 +1,41 @@
+html, body {
+	margin : 20px;
+}
+
+.searchbar input {
+	display : block;
+	margin : 0 auto;
+	width : 570px;
+	height : 27px;
+	border : 1px solid rgb(216, 216, 216);
+	outline : none;
+	font-size : 16px;
+}
+
+.searchbar input:focus {
+	border-color : rgb(66, 133, 244);
+}
+
+.buttons {
+	text-align : center;
+	display : block;
+	margin : 0 auto;
+}
+
+button {
+	margin : 16px 8px;
+	font-size : 11px;
+	color : rgb(68, 68, 68);
+	line-height : 27px;
+	border-radius : 2px;
+	border : 1px solid rgba(0, 0, 0, 0.0980392);
+	background-color : rgb(245, 245, 245);
+}
+
+.slide {
+	display : none;
+}
+
+.slide.active {
+	display : block;
+}
