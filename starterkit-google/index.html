@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Coderdojo Starter Kit</title>
-
+  <meta charset="UTF-8">
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
 
@@ -10,7 +10,34 @@
 </head>
 <body>
   <header></header>
-  <div></div>
+  <div class="slides">
+    <div class="slide active" id="slide-1">
+      <h2>Est-ce que vous êtes heureuse ?</h2>
+      <div class="buttons">
+        <button id="q1-oui">Oui</button>
+        <button id="q1-non">Non</button>
+      </div>
+    </div>
+    <div class="slide" id="slide-2">
+      <h2>Est-ce que vous êtes une maman ?</h2>
+      <div class="buttons">
+        <button id="q2-oui">Oui</button>
+        <button id="q2-non">Non</button>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-3">
+      <h2>Question 3</h2>
+      <div class="buttons">
+        <button id="q3-oui">Oui</button>
+        <button id="q3-non">Non</button>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-4">
+      <h2>FINAL SLIDE</h2>
+    </div>
+  </div>
   <div class="searchbar">
     <form>
       <input name="q" type="text">

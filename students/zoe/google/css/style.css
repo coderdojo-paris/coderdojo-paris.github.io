@@ -1,0 +1,88 @@
+html, body {
+    margin: 20px;
+}
+
+header {
+	height: 40px;
+}
+
+footer {
+	height: 40px;
+}
+
+.container {
+	height: 200px;
+	background-color: white;
+}
+
+.slides {
+	width: 600px;
+	height: 200px;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+}
+
+.slide {
+display: none;
+}
+
+.slide.active {
+	display: block;
+}
+
+.slide h2 {
+	text-align: center;
+}
+
+.slide #photo {
+	width: 150px;
+	margin-left: 450px;
+	margin-top: -150px;
+}
+
+.slide #heart {
+	width: 150px;
+	margin-left: 250px;
+	margin-top: 0px;
+}
+
+.searchbar input {
+	display: block;
+	margin: 0 auto;
+	width: 570px;
+	height: 27px;
+	border: 1px solid rgb(216, 216, 216);
+	outline: none;
+}
+
+.buttons {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+button {
+	margin: 16px 8px;
+	font-size: 11px;
+	color: rgb(68, 68, 68);
+	line-height: 27px;
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.0980392);
+	background-color: rgb(245, 245, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
